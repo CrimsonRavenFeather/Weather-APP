@@ -28,10 +28,37 @@
   color: #61dafb;
 }
 
+/* Weather.js styling */
+
+.container {
+  max-width: 1320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  margin: 5px;
+}
+
+.card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-group mb-3 {
+  margin: 3px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
